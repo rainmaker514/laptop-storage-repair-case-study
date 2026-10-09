@@ -55,4 +55,15 @@ To prepare for OS deployment after replacing the HDD, a bootable USB installer w
   <img src="./images/setup5.png" alt="setup" width="18%"/>
 </p>
 4. Media Generation & Verification: Monitored the download and creation progress through to completion. Inspected contents of USB to verify completion.
+<p align="center">
+  <img src="./images/complete.png" alt="complete" width="500"/>
+</p>
+
+##3 Hardware Disassembly & Upgrade
+1. Powered off laptop and disconnected the AC charger.
+2. Removed rear housing, exposing internal motherboard and other components.
+3. Disconnected battery to prevent shorts while handling components.
+4. Disconnected SATA cable from HDD and unbolted drive bracket.
+5. Extracted failed drive and installed SSD with drive bracket.
+   
 
