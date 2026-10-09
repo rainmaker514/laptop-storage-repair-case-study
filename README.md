@@ -46,6 +46,13 @@ To prepare for OS deployment after replacing the HDD, a bootable USB installer w
 * Launched the Media Creation Tool and accepted the Microsoft Software License Terms.
 * Selected "Create installation media (USB flash drive, DVD, or ISO file) for another PC".
 * Confirmed standard settings (English, Windows 10, 64-bit x64).
-* Specified target drive E: (ESD-USB).
+* Selected USB as media to use and specified target drive E: (ESD-USB).
+<p align="center">
+  <img src="./images/setup1.png" alt="setup" width="18%"/>
+  <img src="./images/setup2.png" alt="setup" width="18%"/>
+  <img src="./images/setup3.png" alt="setup" width="18%"/>
+  <img src="./images/setup4.png" alt="setup" width="18%"/>
+  <img src="./images/setup5.png" alt="setup" width="18%"/>
+</p>
 4. Mediaweffffffffffffffffff
 
