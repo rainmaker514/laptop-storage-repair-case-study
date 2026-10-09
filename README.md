@@ -28,15 +28,15 @@ To decide whether corrupted boot files or a physical disk failure caused this is
   <img src="./images/ePSA.jpg" alt="ePSA" width="500"/>
 </p>
 <p align="center">
-  Figure 1.1: ePSA hardware alert.
+  Figure 1.2: ePSA hardware alert.
 </p>
 
 ## 2. Bootable USB Installation Media Creation
 To prepare for OS deployment after replacing the HDD, a bootable USB installer was made using a secondary PC.
- 1. Software Retrieval: Navigated to the official Microsoft Software Download Page and retrieved the Windows 10 Media Creation Tool. See Figure 2.1.
+ 1. Software Retrieval: Navigated to the official Microsoft Software Download page and retrieved the Windows 10 Media Creation Tool. See Figure 2.1.
 <p align="center">
-  <img src="./images/bootloader-error.jpg" alt="Bootloader Error" width="500"/>
+  <img src="./images/software-download-page.png" alt="Software Download Page" width="500"/>
 </p>
 <p align="center">
-  Figure 1.1: Bootloader error after system failing to boot.
+  Figure 2.1: Microsoft Software Download page for Windows 10 Media Creation.
 </p>
