@@ -8,5 +8,5 @@ Diagnosed a complete boot failure on a Dell laptop due to a failed mechanical HD
 ### Symptoms
 Upon powering up the laptop, the system failed to boot into the OS and displayed a bootloader error (eg. "No bootable devices -strike F1 to retry boot, F2 for setup utility. Press F5 to run onboard diagnostics."). See Figure 1.1.
 
-
+<img src="./images/bootloader-error.jpg" alt="Bootloader Error" width="500"/>
 Figure 1.1: Bootloader error after system failing to boot.
