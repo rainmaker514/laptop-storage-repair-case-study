@@ -54,5 +54,5 @@ To prepare for OS deployment after replacing the HDD, a bootable USB installer w
   <img src="./images/setup4.png" alt="setup" width="18%"/>
   <img src="./images/setup5.png" alt="setup" width="18%"/>
 </p>
-4. Mediaweffffffffffffffffff
+4. Media Generation & Verification: Monitored the download and creation progress through to completion. Inspected contents of USB to verify completion.
 
