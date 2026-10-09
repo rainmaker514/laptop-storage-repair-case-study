@@ -65,5 +65,9 @@ To prepare for OS deployment after replacing the HDD, a bootable USB installer w
 3. Disconnected battery to prevent shorts while handling components.
 4. Disconnected SATA cable from HDD and unbolted drive bracket.
 5. Extracted failed drive and installed SSD with drive bracket.
-   
+<p align="center">
+  <img src="./images/repair1.jpg" alt="repair" width="33%"/>
+  <img src="./images/repair2.jpg" alt="repair" width="18%"/>
+  <img src="./images/repair3.jpg" alt="repair" width="18%"/>
+</p>
 
