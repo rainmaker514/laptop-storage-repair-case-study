@@ -6,17 +6,17 @@ Diagnosed a complete boot failure on a Dell laptop due to a failed mechanical HD
 ## 1. Initial Diagnostics & Error Identification
 
 ### Symptoms
-Upon powering up the laptop, the system failed to boot into the OS and displayed a bootloader error (eg. "No bootable devices -strike F1 to retry boot, F2 for setup utility. Press F5 to run onboard diagnostics."). See Figure 1.1.
+Upon powering up the laptop, the system failed to boot into the OS and displayed a bootloader error (eg. "No bootable devices -strike F1 to retry boot, F2 for setup utility. Press F5 to run onboard diagnostics."). See Image 1.1.
 
 <p align="center">
   <img src="./images/bootloader-error.jpg" alt="Bootloader Error" width="500"/>
 </p>
 <p align="center">
-  Figure 1.1: Bootloader error after system failing to boot.
+  Image 1.1: Bootloader error after system failing to boot.
 </p>
 
 ### Hardware Diagnostic Assessment
-To decide whether corrupted boot files or a physical disk failure caused this issue, Dell's ePSA Pre-boot System Assessment was executed by pressing F5 key. See Figure 1.2.
+To decide whether corrupted boot files or a physical disk failure caused this issue, Dell's ePSA Pre-boot System Assessment was executed by pressing F5 key. See Image 1.2.
 
 * Diagnostic Result: Hardware alert was triggered during the short self test.
 * Error Code: 2000-0142
@@ -28,15 +28,19 @@ To decide whether corrupted boot files or a physical disk failure caused this is
   <img src="./images/ePSA.jpg" alt="ePSA" width="500"/>
 </p>
 <p align="center">
-  Figure 1.2: ePSA hardware alert.
+  Image 1.2: ePSA hardware alert.
 </p>
 
 ## 2. Bootable USB Installation Media Creation
 To prepare for OS deployment after replacing the HDD, a bootable USB installer was made using a secondary PC.
- 1. Software Retrieval: Navigated to the official Microsoft Software Download page and retrieved the Windows 10 Media Creation Tool. See Figure 2.1.
+1. Software Retrieval: Navigated to the official Microsoft Software Download page and retrieved the Windows 10 Media Creation Tool.
 <p align="center">
-  <img src="./images/software-download-page.png" alt="Software Download Page" width="500"/>
+  <img src="./images/software-page.png" alt="Software Download Page" width="500"/>
 </p>
+2. USB Preparation: Inserted a 8GB USB into PC and executed a FAT32 Quick Format to clear all data.
 <p align="center">
-  Figure 2.1: Microsoft Software Download page for Windows 10 Media Creation.
+  <img src="./images/software-page.png" alt="Software Download Page" width="500"/>
 </p>
+3. Media34tfwfwfwef
+4. Mediaweffffffffffffffffff
+
