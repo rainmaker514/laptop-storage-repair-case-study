@@ -8,5 +8,18 @@ Diagnosed a complete boot failure on a Dell laptop due to a failed mechanical HD
 ### Symptoms
 Upon powering up the laptop, the system failed to boot into the OS and displayed a bootloader error (eg. "No bootable devices -strike F1 to retry boot, F2 for setup utility. Press F5 to run onboard diagnostics."). See Figure 1.1.
 
-<img src="./images/bootloader-error.jpg" alt="Bootloader Error" width="500"/>
-Figure 1.1: Bootloader error after system failing to boot.
+<p align="center">
+  <img src="./images/bootloader-error.jpg" alt="Bootloader Error" width="500"/>
+</p>
+<p align="center">
+  Figure 1.1: Bootloader error after system failing to boot.
+</p>
+
+### Hardware Diagnostic Assessment
+To decide whether corrupted boot files or a physical disk failure caused this issue, Dell's ePSA Pre-boot System Assessment was executed by pressing F5 key. See Figure 1.2.
+
+* Diagnostic Result: Hardware alert was triggered during the short self test.
+* Error Code: 2000-0142
+* Validation Code: 67244
+* Result Details: Hard Drive 0 - Short self test unsuccessful.
+* Conclusion: The failed HDD is the cause of the boot failure. Storage upgrade is required.
