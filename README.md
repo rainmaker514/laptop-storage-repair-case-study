@@ -39,8 +39,13 @@ To prepare for OS deployment after replacing the HDD, a bootable USB installer w
 </p>
 2. USB Preparation: Inserted a 8GB USB into PC and executed a FAT32 Quick Format to clear all data.
 <p align="center">
-  <img src="./images/software-page.png" alt="Software Download Page" width="500"/>
+  <img src="./images/format.png" alt="format-usb" width="300"/>
 </p>
-3. Media34tfwfwfwef
+3. Media Creation Wizard Setup:
+
+* Launched the Media Creation Tool and accepted the Microsoft Software License Terms.
+* Selected "Create installation media (USB flash drive, DVD, or ISO file) for another PC".
+* Confirmed standard settings (English, Windows 10, 64-bit x64).
+* Specified target drive E: (ESD-USB).
 4. Mediaweffffffffffffffffff
 
