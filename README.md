@@ -23,3 +23,20 @@ To decide whether corrupted boot files or a physical disk failure caused this is
 * Validation Code: 67244
 * Result Details: Hard Drive 0 - Short self test unsuccessful.
 * Conclusion: The failed HDD is the cause of the boot failure. Storage upgrade is required.
+
+<p align="center">
+  <img src="./images/ePSA.jpg" alt="ePSA" width="500"/>
+</p>
+<p align="center">
+  Figure 1.1: ePSA hardware alert.
+</p>
+
+## 2. Bootable USB Installation Media Creation
+To prepare for OS deployment after replacing the HDD, a bootable USB installer was made using a secondary PC.
+ 1. Software Retrieval: Navigated to the official Microsoft Software Download Page and retrieved the Windows 10 Media Creation Tool. See Figure 2.1.
+<p align="center">
+  <img src="./images/bootloader-error.jpg" alt="Bootloader Error" width="500"/>
+</p>
+<p align="center">
+  Figure 1.1: Bootloader error after system failing to boot.
+</p>
