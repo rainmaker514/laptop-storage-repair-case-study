@@ -44,7 +44,7 @@ To prepare for OS deployment after replacing the HDD, a bootable USB installer w
 3. Media Creation Wizard Setup:
 
 * Launched the Media Creation Tool and accepted the Microsoft Software License Terms.
-* Selected "Create installation media (USB flash drive, DVD, or ISO file) for another PC".
+* Selected ***Create installation media (USB flash drive, DVD, or ISO file) for another PC***.
 * Confirmed standard settings (English, Windows 10, 64-bit x64).
 * Selected USB as media to use and specified target drive E: (ESD-USB).
 <p align="center">
@@ -59,15 +59,23 @@ To prepare for OS deployment after replacing the HDD, a bootable USB installer w
   <img src="./images/complete.png" alt="complete" width="500"/>
 </p>
 
-##3 Hardware Disassembly & Upgrade
+## 3. Hardware Disassembly & Upgrade
 1. Powered off laptop and disconnected the AC charger.
 2. Removed rear housing, exposing internal motherboard and other components.
 3. Disconnected battery to prevent shorts while handling components.
 4. Disconnected SATA cable from HDD and unbolted drive bracket.
 5. Extracted failed drive and installed SSD with drive bracket.
+6. Reconnected SATA cable to SSD, reinserted battery, and reattached the laptop back housing.
 <p align="center">
   <img src="./images/repair1.jpg" alt="repair" width="33%"/>
   <img src="./images/repair2.jpg" alt="repair" width="18%"/>
   <img src="./images/repair3.jpg" alt="repair" width="18%"/>
 </p>
+
+## 4. OS Deployment
+1. Connected Windows 10 USB into laptop's USB port and booted the system.
+2. Initialized Windows Setup and selected standard settings (language, time, and keyboard preferences).
+3. Clicked ***Install Now***, accepted the license terms, and selected ***Custom: Install Windows only (advanced)***.
+4. Verified that the new SSD was detected as Drive 0 and selected it as the primary drive for the Windows installation.
+5. Initiated installation.
 
