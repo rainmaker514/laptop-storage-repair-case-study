@@ -78,4 +78,23 @@ To prepare for OS deployment after replacing the HDD, a bootable USB installer w
 3. Clicked ***Install Now***, accepted the license terms, and selected ***Custom: Install Windows only (advanced)***.
 4. Verified that the new SSD was detected as Drive 0 and selected it as the primary drive for the Windows installation.
 5. Initiated installation.
+<p align="center">
+  <img src="./images/install1.jpg" alt="install1" width="18%"/>
+  <img src="./images/install2.jpg" alt="install2" width="18%"/>
+  <img src="./images/install3.jpg" alt="install3" width="18%"/>
+  <img src="./images/install4.jpg" alt="install4" width="18%"/>
+</p>
 
+## 5. Results
+| Issue | Initial State | Final State |
+| :--- | :--- | :--- |
+| **System Boot** | Failed (`Error 2000-0142`) | Successful boot into fresh Windows 10 OS |
+| **Primary Storage** | Failed 1TB HGST 5400RPM Mechanical HDD | Healthy 128GB EDILOCA SATA3 SSD |
+| **Drive Diagnostic Status** | DST Short Test Unsuccessful | S.M.A.R.T. Healthy / Initialized Unallocated Space |
+| **Operating System** | Unusable / Corrupt | Clean Windows 10 Home 64-bit Deployed |
+
+## Core Technical Competencies Demonstrated
+* Hardware fault isolation using manufacturer pre-boot diagnostic tooling (Dell ePSA).
+* Safe mobile hardware servicing: power isolation, ESD mitigation, and mechanical component disassembly.
+* Storage technology upgrade: replacing mechanical HDD with SATA SSD.
+* Deployment media creation and partition management during OS installation.
